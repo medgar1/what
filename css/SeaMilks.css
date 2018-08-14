@@ -1,0 +1,11 @@
+/* Webfont: SeaMilks-Regular */@font-face {
+    font-family: 'SeaMilks';
+    src: url('SeaMilks.eot'); /* IE9 Compat Modes */
+    src: url('SeaMilks.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SeaMilks.woff') format('woff'), /* Modern Browsers */
+         url('SeaMilks.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
