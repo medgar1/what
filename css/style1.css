@@ -93,7 +93,7 @@ h1 {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(8.1);
+    transform: scale(4.1);
 }
 
 .hs-wrapper img{
