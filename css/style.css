@@ -29,6 +29,7 @@ h1 {
   letter-spacing: .15em; /* Adjust as needed */
   font-size: 100pt;
   font-family:"soma";
+  color:#7BCCB5;
   transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94); 
   
           
