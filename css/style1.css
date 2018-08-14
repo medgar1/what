@@ -100,7 +100,7 @@ h1 {
   top: 0px;
   left: 0px;
   position: absolute;
-  animation: showMe 0.8s linear infinite 0s forwards;
+  animation: showMe 5s linear infinite 5s forwards;
   animation-play-state: paused; 
 }
 
@@ -133,7 +133,7 @@ h1 {
 }
 
   .hs-overlay{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   opacity: 0;
