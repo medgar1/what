@@ -1,0 +1,77 @@
+@import
+@font-face
+{
+    font-family: 'soma';
+    src: url('soma.eot'); /* IE9 Compat Modes */
+    src: url('soma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('soma.woff') format('woff'), /* Modern Browsers */
+         url('soma.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 100pt;
+  font-family:"soma";
+  color:#7BCCB5;
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94); 
+  
+          
+  animation: 
+    typing 12.5s steps(20, end),
+    blink-caret .75s step-end infinite;
+    position:relative;
+    left:200;
+    top:70;
+    bounceIn: 24s; }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: auto}
+  to { width:auto }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}S
