@@ -1,4 +1,4 @@
-@import
+@import url("hover-min.css");
 @font-face{
 
     font-family: 'soma';
@@ -19,7 +19,7 @@ body {
   justify-content: center;
 }
 
-@import url("hover-min.css");
+
 /* Grow */
 .hvr-grow {
     display: inline-block;
@@ -27,7 +27,7 @@ body {
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: blue;
     transition-duration: 0.3s;
     transition-property: transform;
 }
@@ -35,7 +35,7 @@ body {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.1);
+    transform: scale(8.1);
 }
 
 h1 {
