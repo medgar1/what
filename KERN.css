@@ -1,0 +1,11 @@
+/* Webfont: kern-Regular */@font-face {
+    font-family: 'kern';
+    src: url('KERN.eot'); /* IE9 Compat Modes */
+    src: url('KERN.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('KERN.woff') format('woff'), /* Modern Browsers */
+         url('KERN.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
