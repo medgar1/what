@@ -64,6 +64,7 @@ h1 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
 
 /* The typing effect */
 @keyframes typing {
@@ -75,7 +76,7 @@ h1 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-}S
+}
 
 /* Grow */
 .hvr-grow {
@@ -95,3 +96,101 @@ h1 {
     transform: scale(8.1);
 }
 
+.hs-wrapper img{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  animation: showMe 0.8s linear infinite 0s forwards;
+  animation-play-state: paused; 
+}
+
+h2{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h3{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h4{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h5{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h6{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h6{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
+
+h2{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 200pt;
+  font-family:"soma";
+  color:#7BCCB5;
+}
