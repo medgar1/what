@@ -103,6 +103,9 @@ h1 {
   animation: showMe 5s linear infinite 5s forwards;
   animation-play-state: paused; 
 }
+.hs-wrapper:hover img{
+  animation-play-state: running;
+}
 
 @keyframes showMe {
     0% { visibility: visible; z-index: 100; }
