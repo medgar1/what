@@ -9,3 +9,25 @@
     text-rendering: optimizeLegibility;
 }
 
+{
+    font-family: 'whyfuck';
+    src: url('Zap.eot'); /* IE9 Compat Modes */
+    src: url('Zap.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zap.woff') format('woff'), /* Modern Browsers */
+         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilkHeavyUltExp';
+    src: url('bold version.eot'); /* IE9 Compat Modes */
+    src: url('bold version.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('bold version.woff') format('woff'), /* Modern Browsers */
+         url('bold version.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

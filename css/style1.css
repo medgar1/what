@@ -1,19 +1,88 @@
 @import url("hover-min.css");
 @font-face{
 
-    font-family: 'TriedAgain';
-    src: url('Zap.woff2') format('woff2'), /* Modern Browsers */
-         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-family: 'soma';
+    src: url('soma.eot'); /* IE9 Compat Modes */
+    src: url('soma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('soma.woff') format('woff'), /* Modern Browsers */
+         url('soma.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 
+{
+    font-family: 'whyfuck';
+    src: url('Zap.eot'); /* IE9 Compat Modes */
+    src: url('Zap.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zap.woff') format('woff'), /* Modern Browsers */
+         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilk';
+    src: url('SeeMilk.eot'); /* IE9 Compat Modes */
+    src: url('SeeMilk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SeeMilk.woff') format('woff'), /* Modern Browsers */
+         url('SeeMilk.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilkHeavyUltExp';
+    src: url('bold version.eot'); /* IE9 Compat Modes */
+    src: url('bold version.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('bold version.woff') format('woff'), /* Modern Browsers */
+         url('bold version.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+
 body {
-  background: #333;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
+   position: absolute;
+  size: 50%;
+  left:10px;
+  top:50px;
+  background-blend-mode: multiply;
+    animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+    0% {
+    background color:#66ffcc;
+    background-image: url("https://i.imgur.com/msxduVe.jpg");
+    background-blend-mode: screen; }
+   25% {
+   background-image: url("https://i.imgur.com/ul3RrsA.jpg"): rgba(76, 175, 80, 0.3);
+   background-color:#c7d9ea;
+    background-blend-mode: screen; }  
+   65% {
+   background-image: url("https://i.imgur.com/YhpSLSy.jpg"):: rgba(76, 175, 80, 0.3);
+   background-color:#90b4d5;
+    background-blend-mode: multiply;}  
+   75% {
+   background-image: url("https://i.imgur.com/ul3RrsA.jpg"): rgba(76, 175, 80, 0.3);
+   background-color:#6b9bc7;
+    background-blend-mode: multiply;}  
+   85% {
+    background-image: url("https://i.imgur.com/rOgqvrs.jpg");
+    background-color:#1a8cff;
+    background-blend-mode: multiply; }
+    100% {
+    background-image:url("https://i.imgur.com/CfeHOH3.jpg");
+   background-color:#0066cc;
+    background-blend-mode: multiply; }
 }
 
 h1 {
@@ -25,7 +94,30 @@ h1 {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   font-size: 100pt;
-  font-family:"TriedAgain";
+  font-family:'SeeMilk';
+  color:#7BCCB5;
+
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94); 
+  
+          
+  animation: 
+    typing 12.5s steps(20, end),
+    blink-caret .75s step-end infinite;
+    position:relative;
+    left:200;
+    top:70;
+    bounceIn: 24s; }
+
+    h2{
+  float:right;
+   /* Ensures the content is not revealed until the animation */
+  position:fixed;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 100pt;
+  font-family:'SeeMilkHeavyUltExp';
   color:#7BCCB5;
 
   transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94); 
@@ -94,8 +186,8 @@ h1 {
 }
 
 .hs-wrapper img{
-  top: 0px;
-  left: 0px;
+  top: 70px;
+  left: 300px;
   position: absolute;
   animation: showMe 5s linear infinite 5s forwards;
   animation-play-state: paused; 

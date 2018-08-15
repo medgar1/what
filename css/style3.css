@@ -1,0 +1,186 @@
+@import url("hover-min.css");
+@font-face{
+
+    font-family: 'soma';
+    src: url('soma.eot'); /* IE9 Compat Modes */
+    src: url('soma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('soma.woff') format('woff'), /* Modern Browsers */
+         url('soma.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+{
+    font-family: 'whyfuck';
+    src: url('Zap.eot'); /* IE9 Compat Modes */
+    src: url('Zap.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zap.woff') format('woff'), /* Modern Browsers */
+         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilk';
+    src: url('SeeMilk.eot'); /* IE9 Compat Modes */
+    src: url('SeeMilk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SeeMilk.woff') format('woff'), /* Modern Browsers */
+         url('SeeMilk.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilkHeavyUltExp';
+    src: url('bold version.eot'); /* IE9 Compat Modes */
+    src: url('bold version.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('bold version.woff') format('woff'), /* Modern Browsers */
+         url('bold version.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+body {
+  background-image:url("https://i.imgur.com/CfeHOH3.jpg");
+  background-color:#23415c;
+  background-blend-mode:multiply;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;-y;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto ;
+animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+    0% {
+    background color:#66ffcc;
+    background-image: url("https://i.imgur.com/msxduVe.jpg");
+    background-blend-mode: screen; }
+   25% {
+   background-image: url("https://i.imgur.com/ul3RrsA.jpg"): rgba(76, 175, 80, 0.3);
+   background-color:#c7d9ea;
+    background-blend-mode: screen; }  
+   65% {
+   background-image: url("https://i.imgur.com/YhpSLSy.jpg"):: rgba(76, 175, 80, 0.3);
+   background-color:#90b4d5;
+    background-blend-mode: multiply;}  
+   75% {
+   background-image: url("https://i.imgur.com/ul3RrsA.jpg"): rgba(76, 175, 80, 0.3);
+   background-color:#6b9bc7;
+    background-blend-mode: multiply;}  
+   85% {
+    background-image: url("https://i.imgur.com/rOgqvrs.jpg");
+    background-color:#1a8cff;
+    background-blend-mode: multiply; }
+    100% {
+    background-image:url("https://i.imgur.com/CfeHOH3.jpg");
+   background-color:#0066cc;
+    background-blend-mode: multiply; }
+}
+
+.wrapper{
+  float:left;
+  display:inline;
+}
+
+
+/* http://www.placeskull.com/ */
+
+figure{
+  width:20px;
+  height:110px;
+  overflow:hidden;
+  background-image: url('https://i.imgur.com/undefined.jpg');
+  transition: all 1s ease-in-out;
+  background-repeat: repeat-n;
+  margin: 5px;
+  font-size: 48pt;
+  color:#7BCCB5;
+}
+  
+
+figure:hover{
+  overflow:hidden;
+  -webkit-animation: switch 5s infinite; /* Chrome, Safari, Opera */ 
+    animation: switch 5s infinite;
+   background-repeat: repeat-n;
+}
+
+@-webkit-keyframes switch {
+    0% {background-image: url('https://i.imgur.com/TMQlNsv.jpg');background-size: 100% auto ;}
+    20% {background-image: url('https://i.imgur.com/7KzPX2r.jpg');background-size: 100% auto ;}
+    40% {background-image: url('https://i.imgur.com/gFYSpJ0.jpg');background-size: 100% auto ;}
+    60% {background-image: url('https://i.imgur.com/FtMUVX2.jpg');background-size: 100% auto ;}
+    80% {background-image: url('https://i.imgur.com/65mKVjq.jpg');background-size: 100% auto ;}
+    100% {background-image: url('https://i.imgur.com/PdEzE0J.jpg');background-size: 100% auto ;}
+}
+
+
+.wrapper2{
+  float:left;
+  display:inline;
+}
+
+.everything{
+  float:left;
+  width:1023px;
+  display:inline;
+  position: absolute;
+  top: 100px; left: 635px; 
+}
+
+
+
+.everything2{
+  float:left;
+  display:inline;
+  position: absolute;
+  top: 700px; left: 635px; 
+}
+
+
+/* http://www.placeskull.com/ */
+
+figure{
+  width:105px;
+  height:110px;
+  font-family:'SeeMilk';
+  color:#7BCCB5;
+  overflow:hidden;
+  background-image: url('https://i.imgur.com/undefined.jpg');
+  transition: all 1s ease-in-out;
+  background-repeat: repeat-n;
+  margin: 5px;
+}
+  
+
+figure:hover{
+  overflow:hidden;
+  -webkit-animation: switch 5s infinite; /* Chrome, Safari, Opera */ 
+    animation: switch 5s infinite;
+   background-repeat: repeat-n;
+}
+
+@-webkit-keyframes switch {
+    0% {background-image: url('blob:https://imgur.com/6dd7395d-5383-4c84-a8d0-9f8fb47a0052');background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;} 
+    20% {background-image: url('https://i.imgur.com/7KzPX2r.jpg');background-size: 100% auto ;background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;}
+    40% {background-image: url('https://i.imgur.com/gFYSpJ0.jpg');background-size: 100% auto ;background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;}
+    60% {background-image: url('https://i.imgur.com/FtMUVX2.jpg');background-size: 100% auto ;background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;}
+    80% {background-image: url('https://i.imgur.com/65mKVjq.jpg');background-size: 100% auto ;background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;}
+    100% {background-image: url('https://i.imgur.com/PdEzE0J.jpg');background-size: 100% auto ;background-size: 100% auto;background-color:#66ffcc; background-blend-mode: multiply;}
+}
+
+
+
+

@@ -1,6 +1,8 @@
-/* Webfont: TriedAgain-Regular */@font-face {
-    font-family: 'TriedAgain';
-    src: url('Zap.woff2') format('woff2'), /* Modern Browsers */
+/* Webfont: whyfuck-Regular */@font-face {
+    font-family: 'whyfuck';
+    src: url('Zap.eot'); /* IE9 Compat Modes */
+    src: url('Zap.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zap.woff') format('woff'), /* Modern Browsers */
          url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;

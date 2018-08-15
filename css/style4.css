@@ -1,0 +1,100 @@
+@import url("hover-min.css");
+@font-face{
+
+    font-family: 'soma';
+    src: url('soma.eot'); /* IE9 Compat Modes */
+    src: url('soma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('soma.woff') format('woff'), /* Modern Browsers */
+         url('soma.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+{
+    font-family: 'whyfuck';
+    src: url('Zap.eot'); /* IE9 Compat Modes */
+    src: url('Zap.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zap.woff') format('woff'), /* Modern Browsers */
+         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilk';
+    src: url('SeeMilk.eot'); /* IE9 Compat Modes */
+    src: url('SeeMilk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SeeMilk.woff') format('woff'), /* Modern Browsers */
+         url('SeeMilk.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: SeeMilk-Regular */{
+    font-family: 'SeeMilkHeavyUltExp';
+    src: url('bold version.eot'); /* IE9 Compat Modes */
+    src: url('bold version.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('bold version.woff') format('woff'), /* Modern Browsers */
+         url('bold version.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+audio { 
+   display:none;
+}
+
+
+.element {
+  -webkit-animation: KEYFRAME-NAME 5s infinite;
+  -moz-animation:    KEYFRAME-NAME 5s infinite;
+  -o-animation:      KEYFRAME-NAME 5s infinite;
+  animation:         KEYFRAME-NAME 5s infinite;
+}
+
+@-webkit-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes KEYFRAME-NAME {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  background-color:#23415c;
+  background-blend-mode:multiply;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;-y;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto ;
+animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+img{
+  position: absolute;
+  size: 50%;
+  left:10px;
+  top:50px;
+  background-blend-mode: multiply;
+    animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+}
+
+
