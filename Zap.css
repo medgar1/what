@@ -1,0 +1,9 @@
+/* Webfont: TriedAgain-Regular */@font-face {
+    font-family: 'TriedAgain';
+    src: url('Zap.woff2') format('woff2'), /* Modern Browsers */
+         url('Zap.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
